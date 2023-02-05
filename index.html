@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Streamline</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <!--
+            <div id="links">
+                <a href="index.html">Home</a>
+                <a href="documentation.html">Documentation</a>
+            </div>
+            -->
+            <h1>
+                <img src="img/streamline.png" alt="Streamline app icon" />
+                Streamline
+            </h1>
+            <p>
+                <span id="intro-text"></span>
+            </p>
+        </div>
+        <div id="sections">
+            <div class="section">
+                <p>
+                    <a
+                        class="button"
+                        href="https://github.com/brianyu28/streamline/releases/latest/download/Streamline.app.zip"
+                        style="width: 240px;"
+                    >
+                        Download Streamline for macOS
+                    </a>
+                </p>
+                <p>
+                    <a
+                        class="button button-inverted"
+                        href="https://github.com/brianyu28/streamline"
+                        style="width: 240px;"
+                    >
+                        View Streamline on GitHub
+                    </a>
+                </p>
+                <p>Streamline requires <strong>macOS 12</strong> Monterey or newer.</p>
+                <p id="version"></p>
+            </div>
+            <div class="section flex">
+                <div style="flex-basis: 60%;">
+                    <h2>Save time by typing less</h2>
+                    <p class="short">
+                        Streamline automatically expands short sequences of characters of your choosing
+                        into longer phrases and sentences you use often.
+                    </p>
+                </div>
+                <div style="flex-basis: 40%; display: flex;">
+                    <div class="text-field" style="width: 80%; margin-left: auto; margin-right: auto; text-align: left;">
+                        <span id="expand-example-1"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="section flex">
+                <div style="flex-basis: 60%;">
+                    <img style="width: 100%;" src="img/organizer.png" alt="Window with a table of triggers and their corresponding text expansions" />
+                </div>
+                <div style="flex-basis: 40%;">
+                    <h2>Organize your automations</h2>
+                    <p class="short">
+                        Streamline lets you organize your text-expanding automation workflows.
+                        Create new workflows and organize them into groups.
+                        Easily export groups to share them with others.
+                    </p>
+                </div>
+            </div>
+            <div class="section flex">
+                <div style="flex-basis: 50%;">
+                    <h2>Search from any app</h2>
+                    <p class="short">
+                        Text expansion can be triggered by typing the trigger phrase,
+                        or by bringing up the global search panel from any app.
+                        Type a few characters to find the text you're looking for.
+                    </p>
+                </div>
+                <div style="flex-basis: 50%;">
+                    <img style="width: 100%;" src="img/quickentry.png" alt="Panel with a search bar for workflows and a table of results" />
+                </div>
+            </div>
+            <div class="section">
+                <div>
+                    <a
+                        class="button button-inverted"
+                        href="https://github.com/brianyu28/streamline/issues"
+                    >
+                        Bugs and Feature Requests
+                    </a>
+                    <a
+                        class="button button-inverted"
+                        href="mailto:brian@brianyu.me?subject=Streamline"
+                    >
+                        Email the Developer
+                    </a>
+                </div>
+                <p>
+                    &copy; 2023 <a href="https://brianyu.me">Brian Yu</a>
+                </p>
+                <p>
+                    Streamline is licensed under the
+                    <a href="https://www.gnu.org/licenses/gpl-3.0.html">GNU General Public License v3.0</a>.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,108 @@
+html {
+    margin: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+p {
+    font-size: 18px;
+}
+
+#header {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+#header img {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+}
+
+#header h1 {
+    line-height: 100px;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+#header p {
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#links {
+    padding-top: 20px;
+}
+
+#links a {
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+#links a:hover {
+    text-decoration: underline;
+}
+
+#version {
+    display: none;
+}
+
+.section {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section p.short {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sections > div:nth-child(2n + 1) {
+    background-color: #e8e8e8;
+}
+
+button, a.button {
+    background-color: #3696eb;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+button.button-inverted, a.button.button-inverted {
+    background-color: white;
+    color: #3696eb;
+    border: 1px solid #3696eb;
+}
+
+.flex {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-field {
+    border: 1px solid #a9a9a9;
+    border-radius: 5px;
+    padding: 10px;
+}
+
